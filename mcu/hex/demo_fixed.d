@@ -1,0 +1,11 @@
+.\hex\demo_fixed.o: demo_fixed.c
+.\hex\demo_fixed.o: C:\KeilARM\ARM\INC\Philips\lpc21xx.h
+.\hex\demo_fixed.o: C:\KeilARM\ARM\RV31\INC\string.h
+.\hex\demo_fixed.o: types.h
+.\hex\demo_fixed.o: define.h
+.\hex\demo_fixed.o: delay.h
+.\hex\demo_fixed.o: lcd.h
+.\hex\demo_fixed.o: types.h
+.\hex\demo_fixed.o: lcd_defines.h
+.\hex\demo_fixed.o: KPM_defines.h
+.\hex\demo_fixed.o: uart0_pc.h

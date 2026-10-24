@@ -1,0 +1,25 @@
+*** Creating Trace Output File '.\hex\modify.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\hex\startup.o"'
+### List of Objects: adding '".\hex\uart0_pc.o"'
+### List of Objects: adding '".\hex\rfid_uart1.o"'
+### List of Objects: adding '".\hex\main.o"'
+### List of Objects: adding '".\hex\lcd.o"'
+### List of Objects: adding '".\hex\kpm.o"'
+### List of Objects: adding '".\hex\delay.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI ".\hex\startup.o" ".\hex\uart0_pc.o" ".\hex\rfid_uart1.o" ".\hex\main.o" ".\hex\lcd.o" ".\hex\kpm.o" ".\hex\delay.o" --strict --scatter ".\hex\modify.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\modify.map" -o ".\hex\modify.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\hex\modify.axf'
+### ADS-LD Command File: '.\hex\modify.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\hex\modify.lnp', Handle=0x000003E8
+### Writing '.lnp' file
+### ADS-LD Command file '.\hex\modify.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

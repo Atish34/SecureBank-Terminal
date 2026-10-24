@@ -1,0 +1,4 @@
+--cpu ARM7TDMI ".\hex\startup.o" ".\hex\uart0_pc.o" ".\hex\rfid_uart1.o" ".\hex\main.o" ".\hex\lcd.o" ".\hex\kpm.o" ".\hex\delay.o" --strict --scatter ".\hex\modify.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\modify.map" -o ".\hex\modify.axf"
